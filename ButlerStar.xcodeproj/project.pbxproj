@@ -7,21 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		502C198A53887DA24C8F743D /* Pods_ButlerStar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F496766EEFEE56F47D1CF15B /* Pods_ButlerStar.framework */; };
 		70B33E6E1E75D3F000F91D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B33E6D1E75D3F000F91D7F /* AppDelegate.swift */; };
-		70B33E701E75D3F000F91D7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B33E6F1E75D3F000F91D7F /* ViewController.swift */; };
+		70B33E701E75D3F000F91D7F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B33E6F1E75D3F000F91D7F /* LoginVC.swift */; };
 		70B33E731E75D3F000F91D7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B33E711E75D3F000F91D7F /* Main.storyboard */; };
 		70B33E751E75D3F000F91D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B33E741E75D3F000F91D7F /* Assets.xcassets */; };
 		70B33E781E75D3F000F91D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B33E761E75D3F000F91D7F /* LaunchScreen.storyboard */; };
+		70B33E811E75D49200F91D7F /* LoggedInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B33E801E75D49200F91D7F /* LoggedInVC.swift */; };
+		70B33E8A1E7625A700F91D7F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70B33E891E7625A700F91D7F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		116DD4A16A2008331330585C /* Pods-ButlerStar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButlerStar.release.xcconfig"; path = "Pods/Target Support Files/Pods-ButlerStar/Pods-ButlerStar.release.xcconfig"; sourceTree = "<group>"; };
 		70B33E6A1E75D3F000F91D7F /* ButlerStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButlerStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B33E6D1E75D3F000F91D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		70B33E6F1E75D3F000F91D7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70B33E6F1E75D3F000F91D7F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		70B33E721E75D3F000F91D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70B33E741E75D3F000F91D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70B33E771E75D3F000F91D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70B33E791E75D3F000F91D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B33E801E75D49200F91D7F /* LoggedInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedInVC.swift; sourceTree = "<group>"; };
+		70B33E841E7621E600F91D7F /* ButlerStar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ButlerStar.entitlements; sourceTree = "<group>"; };
+		70B33E891E7625A700F91D7F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A7CF999887DE59AC9CE910B5 /* Pods-ButlerStar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButlerStar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ButlerStar/Pods-ButlerStar.debug.xcconfig"; sourceTree = "<group>"; };
+		F496766EEFEE56F47D1CF15B /* Pods_ButlerStar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ButlerStar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +38,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502C198A53887DA24C8F743D /* Pods_ButlerStar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C271C7AF1C0A7971ADF9C0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F496766EEFEE56F47D1CF15B /* Pods_ButlerStar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		70B33E611E75D3F000F91D7F = {
 			isa = PBXGroup;
 			children = (
 				70B33E6C1E75D3F000F91D7F /* ButlerStar */,
 				70B33E6B1E75D3F000F91D7F /* Products */,
+				FE78E873871F7922EDF18904 /* Pods */,
+				0C271C7AF1C0A7971ADF9C0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +74,34 @@
 		70B33E6C1E75D3F000F91D7F /* ButlerStar */ = {
 			isa = PBXGroup;
 			children = (
+				70B33E841E7621E600F91D7F /* ButlerStar.entitlements */,
+				70B33E7F1E75D45200F91D7F /* Controller */,
 				70B33E6D1E75D3F000F91D7F /* AppDelegate.swift */,
-				70B33E6F1E75D3F000F91D7F /* ViewController.swift */,
+				70B33E891E7625A700F91D7F /* GoogleService-Info.plist */,
 				70B33E711E75D3F000F91D7F /* Main.storyboard */,
 				70B33E741E75D3F000F91D7F /* Assets.xcassets */,
 				70B33E761E75D3F000F91D7F /* LaunchScreen.storyboard */,
 				70B33E791E75D3F000F91D7F /* Info.plist */,
 			);
 			path = ButlerStar;
+			sourceTree = "<group>";
+		};
+		70B33E7F1E75D45200F91D7F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70B33E6F1E75D3F000F91D7F /* LoginVC.swift */,
+				70B33E801E75D49200F91D7F /* LoggedInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FE78E873871F7922EDF18904 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7CF999887DE59AC9CE910B5 /* Pods-ButlerStar.debug.xcconfig */,
+				116DD4A16A2008331330585C /* Pods-ButlerStar.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +111,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70B33E7C1E75D3F000F91D7F /* Build configuration list for PBXNativeTarget "ButlerStar" */;
 			buildPhases = (
+				79C7CF1F5DD2A64F10B1B70B /* [CP] Check Pods Manifest.lock */,
 				70B33E661E75D3F000F91D7F /* Sources */,
 				70B33E671E75D3F000F91D7F /* Frameworks */,
 				70B33E681E75D3F000F91D7F /* Resources */,
+				98B3650107A65219422653E5 /* [CP] Embed Pods Frameworks */,
+				A051DD4E1CF266C3A1373943 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +141,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = ZQFU5BPGDU;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70B33E781E75D3F000F91D7F /* LaunchScreen.storyboard in Resources */,
+				70B33E8A1E7625A700F91D7F /* GoogleService-Info.plist in Resources */,
 				70B33E751E75D3F000F91D7F /* Assets.xcassets in Resources */,
 				70B33E731E75D3F000F91D7F /* Main.storyboard in Resources */,
 			);
@@ -132,12 +181,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79C7CF1F5DD2A64F10B1B70B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98B3650107A65219422653E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ButlerStar/Pods-ButlerStar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A051DD4E1CF266C3A1373943 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ButlerStar/Pods-ButlerStar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70B33E661E75D3F000F91D7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70B33E701E75D3F000F91D7F /* ViewController.swift in Sources */,
+				70B33E811E75D49200F91D7F /* LoggedInVC.swift in Sources */,
+				70B33E701E75D3F000F91D7F /* LoginVC.swift in Sources */,
 				70B33E6E1E75D3F000F91D7F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +357,10 @@
 		};
 		70B33E7D1E75D3F000F91D7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7CF999887DE59AC9CE910B5 /* Pods-ButlerStar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ButlerStar/ButlerStar.entitlements;
 				DEVELOPMENT_TEAM = ZQFU5BPGDU;
 				INFOPLIST_FILE = ButlerStar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -272,8 +372,10 @@
 		};
 		70B33E7E1E75D3F000F91D7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116DD4A16A2008331330585C /* Pods-ButlerStar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ButlerStar/ButlerStar.entitlements;
 				DEVELOPMENT_TEAM = ZQFU5BPGDU;
 				INFOPLIST_FILE = ButlerStar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -302,6 +404,7 @@
 				70B33E7E1E75D3F000F91D7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
