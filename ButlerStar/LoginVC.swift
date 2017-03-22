@@ -19,12 +19,7 @@ class LoginVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
     @IBAction func facebookBtnTapped(_ sender: Any) {
@@ -43,6 +38,7 @@ class LoginVC: UIViewController {
                 
                 let credential = FIRFacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
                 self.firebaseAuth(credential)
+                self.performSegue(withIdentifier: "goToFeed", sender: nil)
 
 }}
 }
@@ -68,6 +64,8 @@ class LoginVC: UIViewController {
             FIRAuth.auth()?.signIn(withEmail: email, password: pwd, completion: { (user, error) in
                 if error == nil  {
                     print ("JESS: Email user authenticated with Firebase")
+                    self.performSegue(withIdentifier: "goToFeed", sender: nil)
+                    
                     
                 } else {
                     FIRAuth.auth()?.createUser(withEmail: email, password: pwd, completion: { (user, error) in
@@ -77,7 +75,9 @@ class LoginVC: UIViewController {
                         } else {
                     print("JESS: Successfully authenticated with Firebase")
                             
+                            
                 }
+                
             } )
             
     }

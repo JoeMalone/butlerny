@@ -50,18 +50,18 @@
                                                 <rect key="frame" x="0.0" y="44" width="414" height="61"/>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="f9G-4c-D4t">
-                                                <rect key="frame" x="0.0" y="105.00000000000003" width="414" height="369.66666666666674"/>
+                                                <rect key="frame" x="0.0" y="105" width="414" height="368"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bstarfw" translatesAutoresizingMaskIntoConstraints="NO" id="hjd-iP-Kmk">
-                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="369.66666666666669"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="368"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="cSP-se-Bb3">
-                                                <rect key="frame" x="0.0" y="474.66666666666663" width="414" height="39.666666666666629"/>
+                                                <rect key="frame" x="0.0" y="473" width="414" height="40"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login or Sign-up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pL3-iQ-Ki3">
-                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="39.666666666666686"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="29"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
@@ -69,7 +69,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Q2X-yR-Edd">
-                                                <rect key="frame" x="0.0" y="514.33333333333337" width="414" height="64"/>
+                                                <rect key="frame" x="0.0" y="513" width="414" height="64"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="center" semanticContentAttribute="spatial" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="6dm-xg-e9I">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="32"/>
@@ -108,7 +108,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fgD-wK-u5U">
-                                                <rect key="frame" x="0.0" y="578.33333333333337" width="414" height="58"/>
+                                                <rect key="frame" x="0.0" y="577" width="414" height="58"/>
                                                 <subviews>
                                                     <button opaque="NO" alpha="0.65000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uE9-H7-MB1">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="58"/>
@@ -124,10 +124,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pWY-QV-bD2">
-                                                <rect key="frame" x="0.0" y="636.33333333333337" width="414" height="15.333333333333258"/>
+                                                <rect key="frame" x="0.0" y="635" width="414" height="16"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login or Sign-up with your e-mail, Facebook or Google." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B8d-DF-ucs">
-                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="15.333333333333258"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="16"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="11"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -135,7 +135,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="jIU-Mi-X0L">
-                                                <rect key="frame" x="0.0" y="651.66666666666663" width="414" height="32"/>
+                                                <rect key="frame" x="0.0" y="651" width="414" height="32"/>
                                                 <subviews>
                                                     <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5u-Mf-YiQ">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="32"/>
@@ -157,7 +157,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2Dr-JM-jbZ">
-                                                <rect key="frame" x="0.0" y="683.66666666666663" width="414" height="32"/>
+                                                <rect key="frame" x="0.0" y="683" width="414" height="32"/>
                                                 <subviews>
                                                     <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNr-SX-D5w">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="32"/>
@@ -176,10 +176,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dlm-mu-Ez1">
-                                                <rect key="frame" x="0.0" y="715.66666666666652" width="414" height="20.333333333333371"/>
+                                                <rect key="frame" x="0.0" y="715" width="414" height="21"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot your password - Reset Here!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQJ-3b-5vt">
-                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="20.333333333333371"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="21"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
@@ -213,6 +213,7 @@
                     <connections>
                         <outlet property="emailField" destination="HKd-il-gCa" id="kBR-Ke-0rs"/>
                         <outlet property="pwdField" destination="1to-BN-8li" id="aJK-aL-AKO"/>
+                        <segue destination="xBS-5g-oez" kind="show" identifier="goToFeed" id="bw6-Pj-h28"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
